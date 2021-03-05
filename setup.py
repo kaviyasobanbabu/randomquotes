@@ -4,12 +4,12 @@ with open('README.md', 'r') as file:
      long_description = file.read()
 
 setup(
-    name='quotes',
+    name='quotes-generator',
     version='1.0',
     description='A package that generates quotes of life and smile ',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    py_modules=['quotes'],
+    py_modules=['quotes-generator'],
     package_dir={'': 'src'},
     classifiers=[
 
@@ -19,8 +19,8 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Operating System :: OS Independent",
     ],
-    install_requires=[random],
-    url="https://github.com/kaviyasobanbabu/quotes.git"
+    install_requires=["random"],
+    url="https://github.com/kaviyasobanbabu/randomquotes.git",
     author='kaviya P S, venkateswar.S',
     author_email='kaviyasobanbabu@gmail.com'
 )
