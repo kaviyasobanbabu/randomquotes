@@ -4,12 +4,12 @@ with open('README.md', 'r') as file:
      long_description = file.read()
 
 setup(
-    name='quotes-generator',
+    name='randomquotes',
     version='1.0',
     description='A package that generates quotes of life and smile ',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    py_modules=['quotes-generator'],
+    py_modules=['randomquotes'],
     package_dir={'': 'src'},
     classifiers=[
 
