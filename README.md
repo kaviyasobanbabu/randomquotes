@@ -1,4 +1,4 @@
-# quote :
+# randomquote :
 A PyPI package that generates random quotes of life and smile
 
 
